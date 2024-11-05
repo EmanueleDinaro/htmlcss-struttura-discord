@@ -22,6 +22,13 @@ body{
     font-size: 20px;
 }
 
+main section > .container{
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*------------
     HEADER
 ------------*/
@@ -76,15 +83,16 @@ body{
     MAIN
 ------------*/
 
-.white.container{
+/* .white.container{
     min-height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .big-col, .small-col{
     height: 600px;
+    border: 2px dashed black;
 }
 
 .big-col{
@@ -94,6 +102,27 @@ body{
 .small-col{
     width: 40%;
 }
+
+.gray-bg{
+    background-color: #D3D3D3;
+}
+
+.last-gray-bg{
+    height: 800px;
+    background-color: #D3D3D3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green-container{
+    width: 1200px;
+    min-height: 700px;
+    margin: auto;
+    background-color: #228B22;
+    border: 2px dashed black;
+}
+
 /*------------
     FOOTER
 ------------*/
