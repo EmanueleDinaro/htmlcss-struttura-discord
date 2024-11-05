@@ -76,8 +76,24 @@ body{
     MAIN
 ------------*/
 
+.white.container{
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.big-col, .small-col{
+    height: 600px;
+}
 
+.big-col{
+    width: 60%;
+}
+
+.small-col{
+    width: 40%;
+}
 /*------------
     FOOTER
 ------------*/
@@ -96,10 +112,18 @@ body{
     background-color: #00008B;
 }
 
-.debug .container{
+.debug .header-top > .container{
     background-color: #DAA520;
 }
 
 .debug .pink-container{
     background-color: #EE82EE;
+}
+
+.debug .small-col{
+    background-color: #FFC0CB;
+}
+
+.debug .big-col{
+    background-color: #1E90FF;
 }
