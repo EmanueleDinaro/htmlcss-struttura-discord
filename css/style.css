@@ -17,6 +17,11 @@
     margin: auto;
 }
 
+body{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
 /*------------
     HEADER
 ------------*/
@@ -24,10 +29,6 @@
 .header-top{
     min-height: 80px;
     padding: 15px 0;
-}
-
-.header-bottom{
-    min-height: 500px;
 }
 
 .container{
@@ -53,6 +54,22 @@
 .link{
     width: 60%;
     text-align: center;
+}
+
+
+.header-bottom{
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px solid #ADD8E6;
+}
+
+.pink-container{
+    width: 900px;
+    height: 400px;
+    border: 2px dashed black;
+    
 }
 
 /*------------
@@ -81,4 +98,8 @@
 
 .debug .container{
     background-color: #DAA520;
+}
+
+.debug .pink-container{
+    background-color: #EE82EE;
 }
