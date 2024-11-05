@@ -38,13 +38,15 @@ main section > .container{
     padding: 15px 0;
 }
 
-.container{
+.header-container{
+    max-width: 1200px;
+    margin: auto;
     display: flex;
     height: 50px;
     justify-content: space-between;
 }
 
-.header-top > .container > *{
+.header-top > .header-container > *{
     border: 2px dashed black;
     line-height: 50px;
     padding: 0 10px;
@@ -83,13 +85,6 @@ main section > .container{
     MAIN
 ------------*/
 
-/* .white.container{
-    min-height: 700px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
 .big-col, .small-col{
     height: 600px;
     border: 2px dashed black;
@@ -119,7 +114,6 @@ main section > .container{
     width: 1200px;
     min-height: 700px;
     margin: auto;
-    background-color: #228B22;
     border: 2px dashed black;
 }
 
@@ -127,7 +121,48 @@ main section > .container{
     FOOTER
 ------------*/
 
+.footer-top{
+    background-color: #23272A;
+    min-height: 600px;
+    padding-top: 25px;
+}
+.footer-top > .container{
+    min-height: 500px;
+    display: flex
+}
 
+.big-col-footer{
+    width: 40%;
+    border: 2px dashed black;
+}
+
+.small-col-footer{
+    width: 15%;
+    border: 2px dashed white;
+}
+
+.footer-bottom{
+    background-color: #23272A;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    min-height: 120px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.footer-container{
+    min-height: 80px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-footer, .button-footer{
+    border: 2px dashed black;
+    padding: 5px;
+}
 
 /*------------
     DEBUG
@@ -141,7 +176,7 @@ main section > .container{
     background-color: #00008B;
 }
 
-.debug .header-top > .container{
+.debug .header-top > .header-container{
     background-color: #DAA520;
 }
 
@@ -155,4 +190,28 @@ main section > .container{
 
 .debug .big-col{
     background-color: #1E90FF;
+}
+
+.debug .green-container{
+    background-color: #228B22;
+}
+
+.debug .big-col-footer{
+    background-color: #F08080;
+}
+
+.debug .small-col-footer{
+    background-color: #20B2AA;
+}
+
+.debug .footer-container{
+    background-color: #DAA520;
+}
+
+.debug .logo-footer, .button-footer{
+    background-color: #FFB6C1;
+}
+
+.debug .footer-container{
+    background-color: #7FFFD4;
 }
