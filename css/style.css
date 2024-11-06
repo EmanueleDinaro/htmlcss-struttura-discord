@@ -65,7 +65,6 @@ main section > .container{
     text-align: center;
 }
 
-
 .header-bottom{
     min-height: 500px;
     display: flex;
@@ -74,11 +73,10 @@ main section > .container{
     border-bottom: 4px solid #ADD8E6;
 }
 
-.pink-container{
+.hero{
     width: 900px;
     height: 400px;
-    border: 2px dashed black;
-    
+    border: 2px dashed black; 
 }
 
 /*------------
@@ -128,7 +126,7 @@ main section > .container{
 }
 .footer-top > .container{
     min-height: 500px;
-    display: flex
+    display: flex;
 }
 
 .big-col-footer{
@@ -180,7 +178,7 @@ main section > .container{
     background-color: #DAA520;
 }
 
-.debug .pink-container{
+.debug .hero{
     background-color: #EE82EE;
 }
 
@@ -208,7 +206,8 @@ main section > .container{
     background-color: #DAA520;
 }
 
-.debug .logo-footer, .button-footer{
+.debug .logo-footer,
+.debug .button-footer{
     background-color: #FFB6C1;
 }
 
